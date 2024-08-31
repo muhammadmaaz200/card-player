@@ -1,0 +1,110 @@
+.height
+{
+  height: 400px;
+  
+background-color: #0055b0;
+
+}
+.bg-footer1
+{
+  background-color:  #11063b;
+  ;
+}
+.bg-footer3
+{
+  background-color: #5022a3;
+}
+.country
+{
+  margin-top: 15px;
+}
+.height-1
+{
+  background-color: #5022a3;
+  height:400px;
+}
+
+
+.btn
+{
+  width: 132px;
+height: 75px;
+background-color: #11063b;
+margin-right: auto;
+}
+.images
+{
+  width: 70px;
+height: 70px;
+border-radius: 45px;
+background-color: #05163b;
+}
+.position
+{
+  position: relative;
+}
+
+.country img
+{
+  position: absolute;
+  left:5px;
+}
+.circle
+{
+  width: 200px;
+height: 200px;
+border-radius: 50%;
+background-color: #ffffff;
+margin-left: -50px;
+
+}
+.margin
+{
+  margin-left: -20px;
+}
+
+.btn-secondary
+{
+  width: 300px;
+height: 67px;
+border-radius: 34px;
+background-color: #ffffff;
+color: black;
+}
+.introduction
+{
+  margin-top: -20px;
+  position: absolute;
+  margin-left: 20px;
+}
+.bg-footer
+{
+  background-color: #11063b;
+}
+.bg-footer2
+{
+  background-color: #0055b0;
+}
+.text
+{
+  font-size: 94px;
+color: #ffffff;
+font-weight: 900;
+}
+.progressive-bar
+{
+  width: 100%;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.progressive
+{
+  border-radius: 5px;
+  background-color: #4aa7e0;
+  height: 7px;
+}
+
+.html
+{
+  width: 90%;
+}

@@ -1,0 +1,393 @@
+/*********************/
+/******* Impact ******/
+/*
+Author Name: Naveed Ul Hassan
+Author Email: Sunlimetech@gmail.com
+Website URL: https://www.impact.com
+*/
+/*********************/
+/*********************/
+/******* Index *******/
+/*
+1 - Colors
+2 - Bg-colors
+3 - Font-sizes
+4 - Margin
+5 - Padding
+6 - Images
+7 - Border-radius
+8 - Section
+*/
+/*********************/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+	color: #313243;
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+p
+{
+	color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 10px 0;
+	color: orangered;
+}
+/*****************************/
+/******** Typography *********/
+/*****************************/
+.text-small {
+	font-size: 32px;
+color: #ffffff;
+font-weight: 900;
+}
+.text-mini
+{
+	font-size: 14px;
+	text-align: center;
+	top: 15px;
+}
+.text-medium {
+	font-size: 25px !important;
+}
+.text-large {
+	font-size: 30px !important;
+}
+.text-xlarge {
+	font-size: 35px !important;
+}
+.text-xxlarge {
+	font-size: 65px !important;
+}
+.text-larger {
+	font-size: 70px !important;
+}
+@media (max-width: 768px) {
+	.text-small {
+		font-size: 16px !important;
+	}
+	.text-medium {
+		font-size: 22px !important;
+	}
+	.text-large {
+		font-size: 26px !important;
+	}
+	.text-xlarge {
+		font-size: 28px !important;
+	}
+	.text-xxlarge {
+		font-size: 40px !important;
+	}
+	.text-larger {
+		font-size: 45px !important;
+	}
+}
+/*****************************/
+/*********** colors **********/
+/*****************************/
+.text-white {
+	color: #fff !important;
+}
+.text-black {
+	color: #313243 !important;
+}
+.text-primary {
+	color: #fcc302 !important;
+}
+.text-info {
+	color: #00bec9 !important;
+}
+.text-right
+{
+	text-align: right;
+}
+/*****************************/
+/******** bg-colors **********/
+/*****************************/
+.bg-white {
+	background-color: #fff !important;
+}
+.bg-black {
+	background-color: #313243 !important;
+}
+.bg-info {
+	background-color: #00bec9 !important;
+}
+.bg-primary {
+	background-color:  #4aa7e0!important;
+}
+.bg-secondary
+{
+	 background-color: #1a0442d5 !important;
+
+}
+/*****************************/
+/********* Margin ************/
+/*****************************/
+.m-0 {
+	margin: 0;
+}
+.m-5 {
+	margin: 5px;
+}
+.m-10 {
+	margin: 10px;
+}
+.m-15 {
+	margin: 15px;
+}
+.m-20 {
+	margin: 20px;
+}
+.mt-0 {
+	margin-top: 0;
+}
+.mt-5 {
+	margin-top: 5px!important;
+}
+.mt-10 {
+	margin-top: 10px;
+}
+.mt-15 {
+	margin-top: 15px;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.mt-50
+{
+	margin-top: 50px;
+}
+.me-0 {
+	margin-right: 0;
+}
+.me-5 {
+	margin-right: 5px;
+}
+.me-10 {
+	margin-right: 10px;
+}
+.me-15 {
+	margin-right: 15px;
+}
+.me-20 {
+	margin-right: 20px;
+}
+.mb-0 {
+	margin-bottom: 0;
+}
+.mb-5 {
+	margin-bottom: 5px;
+}
+.mb-10 {
+	margin-bottom: 10px;
+}
+.mb-15 {
+	margin-bottom: 15px;
+}
+.mb-20 {
+	margin-bottom: 20px;
+}
+.ms-0 {
+	margin-left: 0 !important;
+}
+.ms-2
+{
+	margin-left: 2px !important;
+}
+
+.ms-5 {
+	margin-left: 5px ;
+}
+.ms-10 {
+	margin-left: 10px;
+}
+.ms-15 {
+	margin-left: 15px;
+}
+.ms-20 {
+	margin-left: 20px;
+}
+.ms-30
+{
+	margin-left: 70px;
+}
+.ms-80
+{
+	margin-left: 165px;
+}
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+.ms-auto {
+	margin-left: auto;
+}
+.me-auto {
+	margin-right: auto;
+}
+/*****************************/
+/********* Padding ************/
+/*****************************/
+.p-0 {
+	padding: 0;
+}
+
+.p-5 {
+	padding: 5px;
+}
+.p-10 {
+	padding: 10px;
+}
+.p-15 {
+	padding: 15px;
+}
+.p-20 {
+	padding: 20px;
+}
+.pt-0 {
+	padding-top: 0;
+}
+.pt-5 {
+	padding-top: 5px;
+}
+.pt-10 {
+	padding-top: 10px;
+}
+.pt-15 {
+	padding-top: 15px;
+}
+.pt-20 {
+	padding-top: 20px;
+}
+.pe-0 {
+	padding-right: 0 !important;
+}
+.pe-5 {
+	padding-right: 5px;
+}
+.pe-10 {
+	padding-right: 10px;
+}
+.pe-15 {
+	padding-right: 15px;
+}
+.pe-20 {
+	padding-right: 20px;
+}
+.pb-0 {
+	padding-bottom: 0;
+}
+.pb-5 {
+	padding-bottom: 5px;
+}
+.pb-10 {
+	padding-bottom: 10px;
+}
+.pb-15 {
+	padding-bottom: 15px;
+}
+.pb-20 {
+	padding-bottom: 20px;
+}
+.ps-0 {
+	padding-left: 0;
+}
+.ps-5 {
+	padding-left: 5px !important;
+}
+.ps-10 {
+	padding-left: 10px;
+}
+.ps-15 {
+	padding-left: 15px;
+}
+.ps-20 {
+	padding-left: 20px;
+}
+.px-0 {
+	padding-left: 0;
+	padding-right: 0;
+}
+.px-5 {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.px-10 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.px-20 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.pY-0 {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.pY-5 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.pY-10 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.pY-20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*****************************/
+/****** button Classes ******/
+/*****************************/
+.btn {
+	width: 233px;
+	height: 75px;
+	background-color: #11063b;
+	color: #fff;
+	margin-left: -12px;
+}
+
+.btn-info {
+	background-color: red!important;
+	color:white!important;
+	border: 1px solid #00bec9 !important;
+}
+.btn-white {
+	background-color: transparent !important;
+	color: #fff !important;
+	border: 1px solid #fff !important;
+}
+.btn1
+{
+	
+	width: 60px;
+height: 24px;
+border-radius: 12px;
+background-color: #ffffff;
+color: #0055b0;
+}
+
+
+/*****************************/
+/****** Common Classes *******/
+/*****************************/
+section {
+	padding: 50px 0;
+}
+
+.ps-60
+{
+	padding-left: 110px;
+}
